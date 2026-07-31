@@ -10,3 +10,6 @@ secrets.*
 .DS_Store
 Thumbs.db
 *.tsbuildinfo
+
+# npm 配置文件（可能包含 token）
+.npmrc

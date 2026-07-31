@@ -1,7 +1,14 @@
 {
-  "name": "pi-multi-agent",
+  "name": "@wangxiang0605qvq/pi-multi-agent",
   "version": "1.0.0",
-  "description": "A multi-agent orchestration extension for pi coding agent. Main agent decomposes tasks, sub-agents execute, final agent synthesizes results.",
+  "description": "A multi-agent orchestration extension for pi coding agent. 主智能体分解任务，子智能体并行执行，最终智能体合成结果。",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangxiang0605qvq/pi-multi-agent.git"
+  },
   "type": "module",
   "main": "src/index.ts",
   "scripts": {
