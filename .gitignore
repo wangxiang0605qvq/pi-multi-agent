@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+*.log
+*.key
+*.pem
+auth.json
+secrets.*
+.pi/
+.DS_Store
+Thumbs.db
+*.tsbuildinfo

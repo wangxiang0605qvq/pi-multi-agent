@@ -1,0 +1,34 @@
+{
+  "name": "pi-multi-agent",
+  "version": "1.0.0",
+  "description": "A multi-agent orchestration extension for pi coding agent. Main agent decomposes tasks, sub-agents execute, final agent synthesizes results.",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "postinstall": "node scripts/install.js",
+    "test": "echo \"No tests yet\""
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "dependencies": {
+    "typebox": "^1.3.0"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": ">=0.83.0",
+    "@earendil-works/pi-tui": ">=0.83.0"
+  },
+  "keywords": [
+    "pi",
+    "pi-extension",
+    "multi-agent",
+    "orchestration"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "typescript": "^7.0.2"
+  }
+}
